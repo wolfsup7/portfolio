@@ -1,0 +1,63 @@
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #997CCB;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #190934;
+    overflow: hidden;
+    border-style:inset;
+    border-width: 3px;
+    border-color: #905BEC;
+    text-decoration: none;
+}
+
+.topnav a:link {
+    color: #905BEC;
+    margin-right: 10px;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+}
+
+.topnav a:visited {
+    color: #905BEC;
+    margin-right: 10px;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    color: #905BEC;
+    margin-right: 10px;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+    text-shadow: #997CCB 1px 0 10px;
+}
+
+.topnav a:active {
+    color: #905BEC;
+    margin-right: 10px;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+body {
+    background-color: #E9DFFB;
+}
