@@ -49,7 +49,7 @@ header {
     text-decoration: none;
 }
 
-.logo {
+#logo {
     display: flex;
     justify-content: space-around;
 }
@@ -62,56 +62,55 @@ body {
     background-color: #C6ADF5;
 }
 
-.circle {
+#bigcircle {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
+    align-content: center;
     width: 650px;
     height: 650px;
     border-radius: 50%;
-    background-color: #997CCB;
     border: 10px solid #44129B;
-    border-style: double;
+    padding: 10px;
+    background-image: url(https://img.freepik.com/free-vector/abstract-splashed-watercolor-textured-background_53876-8753.jpg?w=996&t=st=1667668569~exp=1667669169~hmac=7a04c7b165ed6762e4fb9915ff5654a3747681f9a2868b74d429777a97ca15a8);
+    background-position: center;
+    margin-top: 15px; 
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    padding: 20px;
+    border: 3px solid #8852E5;
+    background-color: #44129B;
+    margin: 12px;
+}
+p {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    color: #905BEC;
 }
 
 #welcome {
-    border-radius: 50%;
     font-size: xx-large;
-    font-weight: bolder;
-    color: #CD853F;
-    font-family: cursive;
-    border: 3px solid #A52A2A;
-    text-align: center;
-    background-color: black;
-    padding: 20px;
 }
+
+
 
 #renpic {
-    height: 200px;
-    width: 200px;
-    border: 2px solid #8852E5;
-    text-align: center;
+    height: 290px;
+    width: 290px;
     border-radius: 50%;
-    padding: 10px;
-    background-color: #44129B;
+    padding: 5px;
+    border: 5px solid #8852E5;
+    border-style: double;
 }
 
 
-#front-end {
-    height: 200px;
-    width: 200px;
-    border: 2px solid #8852E5;
-    text-align: center;
-    border-radius: 50%;
-    padding: 10px;
-    background-color: #44129B;
-}
-
-#back-end {
-    height: 200px;
-    width: 200px;
-    border: 2px solid #8852E5;
-    text-align: center;
-    border-radius: 50%;
-    padding: 10px;
-    background-color: #44129B;
-}
