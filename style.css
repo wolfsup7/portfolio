@@ -145,7 +145,31 @@ p {
     background-color: #905BEC;
 }
 
-img {
-    height: 300px;
-    width: 300px;
+input {
+    height: 250px;
+    width: 250px;
+}
+
+input:hover {
+    box-shadow: #6000cb 0px 2px 15px;
+}
+
+#role-info1 {
+    display: none;
+}
+
+#role-info2 {
+    display: none;
+}
+
+#role-info3 {
+    display: none;
+}
+
+.roleText{
+    color: red;
+}
+
+.roleText:hover {
+    box-shadow: #6000cb 0px 2px 15px;
 }
