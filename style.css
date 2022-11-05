@@ -1,7 +1,8 @@
+/*EveryPage*/
+
 header {
     display: flex;
     flex-direction: column;
-    background-color: #997CCB;
 }
 
 .topnav {
@@ -14,6 +15,8 @@ header {
     border-width: 3px;
     border-color: #905BEC;
     text-decoration: none;
+    margin-bottom: 10px;
+    font-size: x-large;
 }
 
 .topnav a:link {
@@ -49,18 +52,14 @@ header {
     text-decoration: none;
 }
 
-#logo {
-    display: flex;
-    justify-content: space-around;
-}
-
-img {
-    width: 325px;
-    height: 325px;
-}
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #C6ADF5;
 }
+
+/*MainPage*/
 
 #bigcircle {
     display: flex;
@@ -102,8 +101,6 @@ p {
     font-size: xx-large;
 }
 
-
-
 #renpic {
     height: 290px;
     width: 290px;
@@ -113,4 +110,42 @@ p {
     border-style: double;
 }
 
+/*BIOPage*/
 
+.roles {
+    display: flex;
+    flex-direction: column;
+    background-color: #190934;
+    overflow: hidden;
+    border-style:inset;
+    border-width: 3px;
+    border-color: #905BEC;
+    width: 97%;
+    max-width: 600px;
+}
+
+#software {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #997CCB;
+}
+
+#educator {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #190934;
+}
+
+#leadership {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #905BEC;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}

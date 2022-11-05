@@ -1,7 +1,7 @@
 $(() => {
 
-$('#logo').mouseover(function(){
-    $(this).addClass('hover');
-});
+// $('#logo').mouseover(function(){
+//     $(this).addClass('hover');
+// });
 
 });
